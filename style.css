@@ -1,0 +1,94 @@
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    margin: 40px;
+}
+
+.sombraUno{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(221,180,59);
+    
+    border-radius: 100px 100px 10px 10px;
+}
+.panUno{
+    position: absolute;
+    width: 598px;
+    height: 90px;
+    background-color: rgb(255,222,124);
+    border-radius: 100px 100px 10px 10px;
+    left: 1px;
+}
+
+.panDos{
+    position: relative;
+    width: 590px;
+    height: 50px;
+    margin: 0 0 0 5px;
+    top: 135px;
+    background-color: rgb(255,222,124);
+    background: linear-gradient(rgb(221,180,59)55%,rgb(252, 238, 195));
+    display: flex;
+
+}
+.invisUno{
+  width: 0; 
+  height: 0; 
+  border-left: 00 solid transparent;
+  border-right: 100px solid transparent;
+  margin: -35px 0 0 -2px;
+  border-top: 87px solid blueviolet;
+  display: flex;
+}
+.invisDos{
+    width: 0; 
+    height: 0; 
+    border-left: 102px solid transparent;
+    border-right: 00 solid transparent;
+    margin: -82px 0 0 498px;
+    border-top: 90px solid blueviolet;
+}
+
+.sombraDos{
+    width: 600px;
+    height: 65px;
+    margin: -95px 0 0 -600px;
+    background-color: brown;
+}
+
+.salchicha{
+    width: 598px;
+    height: 55px;
+    margin: 0 0 0 2px;
+    background-color: rgb(233, 97, 87);
+
+}
+
+.sombraTres{
+    width: 600px;
+    height: 50px;
+    margin: 100px 0 0 0;
+    background-color: rgb(221,180,59);
+    
+    border-radius: 19px 19px 100px 100px;
+}
+.panTres{
+    width: 598px;
+    height: 40px;
+    margin: 135px 0 0 2px;
+    background-color: rgb(255,222,124);
+    border-radius: 19px 19px 100px 100px;
+    left: 1px;
+}
+
+.luz{
+    width: 598px;
+    height: 15px;
+    margin: 135px 0 0 2px;
+    background-color: rgb(252, 238, 195);
+    border-radius: 19px 19px 100px 100px;
+    left: 1px;
+}
